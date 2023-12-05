@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 80vh;
+    background-image: url("./Screenshot\ 2023-12-05\ 125238.png");
+    background-size:100px;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+.header , a{
+    display: grid;
+    justify-content: center;
+    color: aquamarine;
+}
+
+.header:hover{
+    background-image: url("./Happy-Birthday-Cake-Candles-Gif_02_wordsjustforyou_200821.gif");
+    background-repeat: repeat;
+
+}
